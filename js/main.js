@@ -59,7 +59,7 @@ let toppingCost = toppingArray.length * prices.topping;
 let condimentCost = condimentArray.length * prices.condiment;
 
 // TODO: Combine the costs of each part of the sandwich to get the subtotal.
-let subtotal = prices.sandwhich + meatCost + toppingCost + condimentCost;
+let subtotal = prices.sandwich + meatCost + toppingCost + condimentCost;
 
 // TODO: Calculate the tax owed using the waStateTaxRate.
 let waStateTaxRate = 0.065;
